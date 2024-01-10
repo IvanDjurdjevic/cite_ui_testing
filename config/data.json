@@ -1,0 +1,26 @@
+{
+    "validUser": {
+        "email": "ivan.djurdjevic@gmail.com",
+        "password": "ciribuciriba"
+      },
+    "invalidUser": {
+        "email": "",
+        "requireEmailText": "Обавезно поље",
+        "password": "notsecret",
+        "email2": "ivan.djurdjevic@gmail.com",
+        "alertMessage": "Не постоји налог са овим креденцијалима",
+        "alertInForgotPass": "Error!",
+        "password2": ";4"
+      },
+      "url": "https://obuke.cite.edu.rs/",
+      "urlPassword": "https://obuke.cite.edu.rs/password",
+      "urlVideos": "https://obuke.cite.edu.rs/videoteka/1",
+    "profile": {
+        "nameText": "Ivan Đurđević",
+        "dateEdit": "05061991",
+        "dateEdit2": "05062222",
+        "date": "06. 05. 1991.",
+        "date2": "06. 05. 2222."
+
+    }
+}

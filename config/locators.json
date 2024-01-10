@@ -1,0 +1,29 @@
+{
+    "login": {
+        "email": { "id": "email" },
+        "emailInForgotPass": { "id": "email" },
+        "emailHelperText": { "id": "email-helper-text"},
+        "password": { "id": "password" },
+        "alertMessageText": { "xpath": "//p[@class='MuiTypography-root MuiTypography-body1 css-sqgx1g']" },
+        "alertInForgotPass": { "xpath": "//h6[@class='MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-5rvv6o']" },
+        "buttonLogin": { "css": "[type='submit']" },
+        "buttonInForgotPass": { "css": "[type='submit']" },
+        "forgotPassword": { "xpath": "//h6[@class='MuiTypography-root MuiTypography-h6 css-1oevxvn']" },
+        "cancelForgotPassword": { "xpath": "//h6[@class='MuiTypography-root MuiTypography-h6 css-mz7gp1']" }
+    },
+    "profile": {
+        "name": {"xpath": "//h5[@class='MuiTypography-root MuiTypography-h5 css-zq6grw']" },
+        "dateOfBirth": { "xpath": "//p[@class='MuiTypography-root MuiTypography-body1 css-9l3uo3']"},
+        "javascriptVideos": { "xpath": "//div[@class='MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-12bvxlf']" },
+        "editProfileIcon": { "xpath": "//div[@class='MuiCardActions-root MuiCardActions-spacing css-3zukih']//div[1]//*[name()='svg']"},
+        "editDateOfBirth": { "id": "date_of_birth"},
+        "buttonEditSubmit": { "css": "[type='submit']"}
+    },
+    "videos": {
+        "videoLibrary": {"xpath": "//a[contains(text(),'Видеотека')]"},
+        "dropdown": { "id": "label" },
+        "chooseVideo": { "xpath": "//h5[@class='MuiTypography-root MuiTypography-h5 css-frmr4u']"},
+        "titleJS": {"xpath": "//span[@class='MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1g3izzu']"},
+        "videoList": {"xpath": "//body/div[@id='root']/div/main/div[@class='MuiGrid-root MuiGrid-container css-v3z1wi']/div[@class='MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-12tsf3f']/div[2]"}
+    }                           
+}
